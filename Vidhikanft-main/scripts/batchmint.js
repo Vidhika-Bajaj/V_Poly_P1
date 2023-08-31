@@ -3,7 +3,7 @@ const VidhikaNFTContractJSON = require("../artifacts/contracts/VidhikaNFT.sol/Vi
 
 const contract_address = "0x616E9ed7E928fc95E68555bB94809e178D6C3AA9"; // Replace with the actual contract address
 const VidhikaNFTABI = VidhikaNFTContractJSON.abi;
-const walletAddress = "0x3Fc5fb342Aec4773ce3C4FB70FC357f22E2c1dE1"; // Replace with your wallet address
+const walletAddress = "0x77E930D39F67A75E5054bF73a92ffC02c98d9cf2"; // Replace with your wallet address
 
 async function main() {
     const VidhikaNFTContract = await hre.ethers.getContractAt(VidhikaNFTABI, contract_address);
