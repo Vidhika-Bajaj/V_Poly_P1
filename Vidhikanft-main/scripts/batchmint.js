@@ -1,7 +1,7 @@
 const hre = require("hardhat");
 const VidhikaNFTContractJSON = require("../artifacts/contracts/VidhikaNFT.sol/VidhikaNFT.json");
 
-const contract_address = "0x616E9ed7E928fc95E68555bB94809e178D6C3AA9"; // Replace with the actual contract address
+const contract_address = "0x6592866282bd17c1dA1a2365B2B1c03afB05Ac83"; // Replace with the actual contract address
 const VidhikaNFTABI = VidhikaNFTContractJSON.abi;
 const walletAddress = "0x77E930D39F67A75E5054bF73a92ffC02c98d9cf2"; // Replace with your wallet address
 
